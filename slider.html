@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Lorem Ipsum</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/slicknav.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12 top">
+        </div>
+    </div>
+    <header></header>
+
+    <main>
+        <h1 style="text-align: center">Piękny sliderek</h1>
+        <div class="slider">
+            <figure>
+                <img src="img/slid1.jpeg" alt="slider">
+                <img src="img/slid2.jpeg" alt="slider">
+                <img src="img/slid3.jpeg" alt="slider">
+                <img src="img/slid4.jpeg" alt="slider">
+                <img src="img/slid5.jpeg" alt="slider">
+            </figure>
+
+            <button class="btn-prev"><i class="fa fa-arrow-circle-left"></i></button>
+            <button class="btn-next"><i class="fa fa-arrow-circle-right"></i></button>
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="row" data-aos="zoom-in">
+            <div class="col-md-4">
+                <h3>Latest From Blog</h3>
+                <br>
+                <p>
+                    Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Link BLock</h3>
+                <ul>
+                    <li><a href="#">Lorem ipsum dolor</a></li>
+                    <li><a href="#">Suspendisse in neque</a></li>
+                    <li><a href="#">Praesent et eros</a></li>
+                    <li><a href="#">Lorem ipsum dolor</a></li>
+                    <li><a href="#">Suspendisse in neque</a></li>
+                    <li><a href="#">Praesent et eros</a></li>
+                    <li><a href="#">Suspendisse in neque</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Compane Details</h3>
+                <p>
+                    <br>
+                    Company Name <br>
+                    Street Name & Number <br>
+                    Line Two <br>
+                    Town <br>
+                    Postcode/Zip <br><br>
+                    Tel: xxxxx xxxxxxxxxx <br>
+                    Fax: xxxxx xxxxxxxxxx <br>
+                    Email: <a href="mailto:contact@mydomain.com">contact@mydomain.com</a>
+                </p>
+            </div>
+        </div>
+        <div class="row footer-copy">
+            <div class="col-md-8">
+                <br>
+                <p>Copyright &copy; Lorem Ipsum - Wszystkie prawa zastrzeżone</p>
+            </div>
+
+            <div class="col-md-4">
+                <br>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
+
+    </footer>
+</div>
+<!-- Javascript -->
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/main.js"></script>
+<script src="ajaxy/ajax.js"></script>
+<script>
+    $(document).ready(function(){
+        var x = 0;
+        // for next slide
+        $('.btn-next').click(function(){
+
+            x= (x<=300)?(x+100):0;
+            $('figure').css('left', -x+'%');
+        });
+
+
+        // for prev slide
+        $('.btn-prev').click(function(){
+
+            x= (x>=100)?(x-100):400;
+            $('figure').css('left', -x+'%');
+        });
+    });
+</script>
+</body>
+</html>

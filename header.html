@@ -1,0 +1,33 @@
+<div class="row" style="margin-top: 60px;">
+    <div class="col-md-6">
+        <div class="brand">
+            <a href="index.html" class="navber-brand">
+                <h1>Lorem</h1>
+                <p>Ipsum</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <nav role="navigation" class="navbar">
+            <ul class="nav" id="main-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link"><i class="fa fa-home"></i><br>Strona główna</a></li>
+                <li class="nav-item"><a href="formularz.html" class="nav-link"><i class="fa fa-tasks"></i><br>formularz</a></li>
+                <li class="nav-item"><a href="tabelki.html" class="nav-link"><i class="fa fa-envelope"></i><br>tabelki ajax</a></li>
+                <li class="nav-item"><a href="slider.html" class="nav-link"><i class="fa fa-camera"></i><br>sliderek</a></li>
+            </ul>
+        </nav>
+
+        <!-- menu mobilne -->
+        <div id="attach-menu-mobile">
+
+        </div>
+    </div>
+
+    <script>
+        $('#main-menu').slicknav({
+            prependTo: '#attach-menu-mobile',
+            label: ''
+        });
+    </script>
+</div>

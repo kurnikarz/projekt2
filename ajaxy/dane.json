@@ -1,0 +1,26 @@
+[{"nick":"Kowal",
+  "miasto":"Olsztyn",
+  "liczba":"5",
+  "time":"13022129030099"
+  },
+  {"nick":"Kowalczyk",
+    "miasto":"Bruzda",
+    "liczba":"26",
+    "time":"13022129030099"
+  },
+  {"nick":"Nowak",
+    "miasto":"Biskupiec",
+    "liczba":"15",
+    "time":"13022129030099"
+  },
+  {"nick":"Nowakowski",
+    "miasto":"Zabiely",
+    "liczba":"146",
+    "time":"13022129030099"
+  },
+  {"nick":"Frondek",
+    "miasto":"Mrągowo",
+    "liczba":"65",
+    "time":"13022129030099"
+  }
+]

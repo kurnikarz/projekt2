@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Lorem Ipsum</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/slicknav.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12 top">
+        </div>
+    </div>
+    <header></header>
+    <center><h1>Dane przesłane z plików txt, xml, json</h1></center>
+    <br>
+    <div class="row">
+
+        <div class="col-lg-4">
+            <button type="button" onclick="loadJson()">Pobierz dane JSON</button>
+            <br>
+            <br>
+            <h3>Wynik:</h3>
+            <br>
+            <div id="dane"></div>
+        </div>
+
+        <div class="col-lg-4">
+            <button type="button" onclick="loadXml()">Pobierz dane XML</button>
+            <br>
+            <br>
+            <h3>Wynik:</h3>
+            <br>
+            <div id="dane2"></div>
+        </div>
+
+        <div class="col-lg-4">
+            <button type="button" onclick="loadTxt()">Pobierz dane TXT</button>
+            <br>
+            <br>
+            <h3>Wynik:</h3>
+            <br>
+            <div id="dane3"></div>
+        </div>
+
+    </div>
+    <footer>
+
+        <div class="row" data-aos="zoom-in">
+            <div class="col-md-4">
+                <h3>Latest From Blog</h3>
+                <br>
+                <p>
+                    Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Link BLock</h3>
+                <ul>
+                    <li><a href="#">Lorem ipsum dolor</a></li>
+                    <li><a href="#">Suspendisse in neque</a></li>
+                    <li><a href="#">Praesent et eros</a></li>
+                    <li><a href="#">Lorem ipsum dolor</a></li>
+                    <li><a href="#">Suspendisse in neque</a></li>
+                    <li><a href="#">Praesent et eros</a></li>
+                    <li><a href="#">Suspendisse in neque</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Compane Details</h3>
+                <p>
+                    <br>
+                    Company Name <br>
+                    Street Name & Number <br>
+                    Line Two <br>
+                    Town <br>
+                    Postcode/Zip <br><br>
+                    Tel: xxxxx xxxxxxxxxx <br>
+                    Fax: xxxxx xxxxxxxxxx <br>
+                    Email: <a href="mailto:contact@mydomain.com">contact@mydomain.com</a>
+                </p>
+            </div>
+        </div>
+        <div class="row footer-copy">
+            <div class="col-md-8">
+                <br>
+                <p>Copyright &copy; Lorem Ipsum - Wszystkie prawa zastrzeżone</p>
+            </div>
+
+            <div class="col-md-4">
+                <br>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
+
+    </footer>
+</div>
+<!-- Javascript -->
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/main.js"></script>
+<script src="ajaxy/ajax.js"></script>
+</body>
+</html>

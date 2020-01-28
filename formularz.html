@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Lorem Ipsum</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/slicknav.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 top">
+        </div>
+    </div>
+    <header>
+    </header>
+    <main>
+        <form id="formularz" action="wyslano.html">
+            <div class="form-group">
+                <label for="formGroupExampleInput">Imię</label>
+                <input type="text" class="form-control required" id="formGroupExampleInput" name="imie" minlength="2" maxlength="15">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Nazwisko</label>
+                <input type="text" class="form-control required" id="formGroupExampleInput2" name="nazwisko" minlength="2" maxlength="25">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput3">Email</label>
+                <input type="email" class="form-control required" id="formGroupExampleInput3" name="email">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput5">Hasło</label>
+                <input type="password" class="form-control required" id="formGroupExampleInput5" name="pass" minlength="6">
+            </div>
+            Płeć <br>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="mezczyzna" value="option1" required>
+                <label class="form-check-label" for="mezczyzna" id="nie-panie">Mężczyzna</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="kobieta" value="option2" required>
+                <label class="form-check-label" for="kobieta" id="panie">Kobieta</label>
+            </div>
+            <br><br>
+            <div class="panie-janie" style="display:none;">
+                <div class="form-group"><label for="formGroupExampleInput4">Nazwisko panieńskie</label><input type="text" class="form-control required" id="formGroupExampleInput4" name="panienskie" minlength="2"></div>
+            </div>
+            Skąd się o nas dowiedziałeś ?<br>
+            <div class="form-check">
+                <input class="form-check-input required" type="checkbox" value="" id="radio" name="opcja">
+                <label class="form-check-label" for="radio">
+                    Radio
+                </label>
+                <br>
+                <input class="form-check-input required" type="checkbox" value="" id="prasa" name="opcja">
+                <label class="form-check-label" for="prasa">
+                    Prasa
+                </label>
+                <br>
+                <input class="form-check-input required" type="checkbox" value="" id="strona-internetowa" name="opcja">
+                <label class="form-check-label" for="strona-internetowa">
+                    Mama
+                </label>
+                <br>
+                <input class="form-check-input required" type="checkbox" value="" id="inne" name="opcja">
+                <label class="form-check-label" for="inne">
+                    Inne
+                </label>
+            </div>
+            <br>
+            <input type="submit" class="btn btn-primary">
+        </form>
+
+    </main>
+
+    <footer>
+
+        <div class="row" data-aos="zoom-in">
+            <div class="col-md-4">
+                <h3>Latest From Blog</h3>
+                <br>
+                <p>
+                    Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Link BLock</h3>
+                <ul>
+                    <li><a href="#">Lorem ipsum dolor</a></li>
+                    <li><a href="#">Suspendisse in neque</a></li>
+                    <li><a href="#">Praesent et eros</a></li>
+                    <li><a href="#">Lorem ipsum dolor</a></li>
+                    <li><a href="#">Suspendisse in neque</a></li>
+                    <li><a href="#">Praesent et eros</a></li>
+                    <li><a href="#">Suspendisse in neque</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Compane Details</h3>
+                <p>
+                    <br>
+                    Company Name <br>
+                    Street Name & Number <br>
+                    Line Two <br>
+                    Town <br>
+                    Postcode/Zip <br><br>
+                    Tel: xxxxx xxxxxxxxxx <br>
+                    Fax: xxxxx xxxxxxxxxx <br>
+                    Email: <a href="mailto:contact@mydomain.com">contact@mydomain.com</a>
+                </p>
+            </div>
+        </div>
+        <div class="row footer-copy">
+            <div class="col-md-8">
+                <br>
+                <p>Copyright &copy; Lorem Ipsum - Wszystkie prawa zastrzeżone</p>
+            </div>
+
+            <div class="col-md-4">
+                <br>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
+
+    </footer>
+</div>
+
+<!-- Javascript -->
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

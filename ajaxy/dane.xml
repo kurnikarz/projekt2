@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <row>
+        <nick>Kowal</nick>
+        <miasto>Olsztyn</miasto>
+        <liczba>5</liczba>
+        <time>13022129030099</time>
+    </row>
+    <row>
+        <nick>Kowalczyk</nick>
+        <miasto>Bruzda</miasto>
+        <liczba>26</liczba>
+        <time>13022129030099</time>
+    </row>
+    <row>
+        <nick>Nowak</nick>
+        <miasto>Biskupiec</miasto>
+        <liczba>15</liczba>
+        <time>13022129030099</time>
+    </row>
+    <row>
+        <nick>Nowakowski</nick>
+        <miasto>Zabiely</miasto>
+        <liczba>146</liczba>
+        <time>13022129030099</time>
+    </row>
+    <row>
+        <nick>Frondek</nick>
+        <miasto>Mrągowo</miasto>
+        <liczba>65</liczba>
+        <time>13022129030099</time>
+    </row>
+</root>

@@ -1,0 +1,299 @@
+a {
+    color: #999999;
+    text-decoration: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+i:hover {
+    color: #ffffff;
+}
+
+a:visited {}
+a:hover, a:focus {
+    color: #999999;
+    text-decoration: none;
+}
+a:active {
+    color: #333333;
+}
+
+.top {
+    background-color: #55415f;
+    height: 30px;
+}
+
+body {
+    font-family: Georgia, serif;
+}
+
+.brand {
+    width: 1%;
+}
+
+.brand a {
+    text-decoration: none;
+}
+
+.brand p {
+    font-size: 12px;
+    color: #999999;
+}
+
+.nav {
+    text-transform: uppercase;
+}
+
+.content {
+    margin-top: 30px;
+    background-color: #ebebeb;
+    padding: 20px;
+    #height: 366px;
+}
+
+.content h2 {
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.content p {
+    color: #999999;
+}
+
+.btn {
+     text-transform: uppercase;
+     color: #ffffff;
+     background-color: #55415f;
+ }
+
+.btn:hover {
+    background-color: #6A1B9A;
+    color: #ffffff;
+}
+
+
+main {
+    margin-top: 50px;
+    text-align: center;
+}
+
+main h3 {
+    color: #55415f;
+}
+
+main p {
+    color:#807d77;
+}
+
+main hr {
+    background-color:  #d7d7d7;
+}
+
+.bot-items {
+    text-align: left;
+}
+
+.bot-items h3 {
+    color: #7f7d77;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #222222;
+    padding: 20px;
+    color: #ffffff
+}
+
+footer h3 {
+    color: #ffffff;
+}
+
+footer p {
+    color: #807d77;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    text-align: center;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+    padding: 10px;
+}
+
+ul li:hover {
+    background-color: #55415f;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+ul li:hover a{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+ul li:hover i{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+footer hr {
+    color: #000000;
+    height: 5px;
+}
+
+.footer-copy {
+    border-top: #807d77 1px dotted;
+}
+
+.fa {
+    font-size: 28px;
+    color: #807d77;
+    margin-right: 10px;
+}
+
+.slider-inner {
+    width: 980px;
+    height: 380px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 3px;
+    border: #666 solid 1px;
+}
+
+.slider-inner img {
+    display: none;
+    width: 980px;
+    height: 380px;
+}
+
+.slider-inner img.active {
+    display: inline-block;
+}
+
+.prev, .next {
+    float: left;
+    margin-top: 170px;
+    cursor: pointer;
+}
+
+.prev {
+    position: relative;
+    margin-right: -45px;
+    z-index: 100;
+}
+
+.error {
+    color: #FF0033;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+div#dane {
+    background-color: #d9d9d9;
+    border-radius: 6px;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+div.daneItem {
+    font-family: Verdana, Helvetica, sans-serif;
+    color: #434343;
+    padding: 10px;
+}
+div.daneItem:nth-child(2n) {
+    background-color: #fafafa;
+}
+div.daneItem:first-child {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+div.daneItem:last-child {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.slider {
+    width: 90%;
+    height:600px;
+    margin:50px auto;
+    box-shadow: 0px 0px 10px 3px grey;
+    position: relative;
+}
+
+div.slider {
+    overflow: hidden;
+    border: 5px solid #3949ab;
+}
+
+div.slider figure img { width: 20%; height:100%;  float: left; }
+div.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    transition: 1s ease-in-out;
+
+
+}
+
+.btn-next, .btn-prev{
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+    color: white;
+    background: #3949ab;
+    padding: 20px;
+    font-size: 50px;
+    border:none;
+}
+
+.btn-prev{
+    left: 0px;
+}
+.btn-next{
+    right: 0px;
+}
+
+.wrapper {
+    width: 100%;
+    border: #000000 1px solid;
+    padding: 10px;
+}
+
+.gal {
+    width: 100%;
+}
+
+.slicknav_menu {
+
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    #main-menu {
+        display: none;
+    }
+
+    .slicknav_menu {
+        background-color: #55415f;
+        display: inline-block;
+        position: absolute;
+        z-index: 100;
+        right: 0;
+        text-transform: uppercase;
+        margin-right: 15px;
+        margin-top: -75px;
+    }
+
+    header {
+        background-color: #55415f;
+        position: relative;
+        top: 0;
+    }
+
+}
